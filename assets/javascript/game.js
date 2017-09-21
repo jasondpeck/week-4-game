@@ -46,7 +46,7 @@ function lose(){
 
 //on click functions i could not figure out how to make one for all 4 jewels
 
-    $("#one").on('click', function(){
+$("#one").on('click', function(){
     totalScore = totalScore + numberOptions;
     $("#sumofcrystals").text(totalScore); 
         if (totalScore == randomNumber){
@@ -57,7 +57,7 @@ function lose(){
         }   
   })  
 
-    $('#two').on ('click', function(){
+$('#two').on ('click', function(){
     totalScore = totalScore + numberOptions2;
     $("#sumofcrystals").text(totalScore); 
         if (totalScore == randomNumber){
@@ -68,7 +68,7 @@ function lose(){
         } 
   })  
 
-    $('#three').on ('click', function(){
+$('#three').on ('click', function(){
     totalScore = totalScore + numberOptions3;
     $("#sumofcrystals").text(totalScore);
         if (totalScore == randomNumber){
@@ -79,7 +79,7 @@ function lose(){
         } 
   })  
 
-    $('#four').on ('click', function(){
+$('#four').on ('click', function(){
     totalScore = totalScore + numberOptions4;
     $("#sumofcrystals").text(totalScore); 
         if (totalScore == randomNumber){
