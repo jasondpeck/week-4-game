@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta charset="UTF-8">
+  <title>Homework #4: Crystal Game</title>
+</head>
+<body>
+  <div id="header">
+  <h1>CrystalsCollector!</h1>
+  </div>
+  <br>
+  <div id="instructions">
+    <h2>» You will be given a random number at the start of the game.<br>
+    » There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br>
+    » This score accumlates under the crystal images.<br>
+   » You will win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br>
+   » The value of each crystal is hidden from you until you click on it.<br>
+    » Each time when the game starts, the game will change the values of each crystal.</h2>
+  </div>
+  <br>
+  <div id="guess">
+  <h2>Guess this number: <span id="randomnumber"></span></h2>
+  </div>
+  <br><br><br>
+    <div id="score">Your total score is:
+  <div id=sumofcrystals>
+  </div>
+  </div>
+  <br><br><br>
+    <div id="crystals">
+    <img src="assets/images/flourite.jpg" class=crystal1 id="one">
+    <img src="assets/images/purple.jpg" class=crystal2 id="two">
+    <img src="assets/images/quartz.jpg" class=crystal3 id="three">
+    <img src="assets/images/ruby.jpg" class=crystal4 id="four">
+  </div>
+  <br><br>
+  <div id="results">
+  Wins: <div id="wins">
+  </div><br><br>
+  Losses: <div id="losses">
+  </div>
+  </div>
+  <script src="assets/javascript/game.js">
+  </script>
+</body>
+</html>

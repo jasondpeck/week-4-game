@@ -1,0 +1,105 @@
+  body {
+    background-image: url("../images/background.jpg")
+  }
+
+  h1 {
+    color: #AFAFAF;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 18px;
+  }
+
+  h2 {
+    color: #5973FF;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+
+  #header {
+    font-family: Tahoma;
+    font-size: 80px;
+    text-align: center;
+    background-color: #4169E1;
+    width: 50%;
+    margin: 20px;
+  }
+
+  #instructions {
+    margin: 20px;
+  }
+  
+  #guess {
+    position: fixed;
+    left: 330px;
+  }
+
+  #randomnumber {
+    color: black;
+    text-decoration: underline;
+    font-size: 26px;
+  }
+
+  #results {
+    position: fixed;
+    left: 400px;
+  }
+
+  #results, #wins, #losses {
+    left-margin: 50px;
+    color: red;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 18px;
+    display: inline;
+  }
+
+  #one {
+    padding: 10px;
+  }
+
+  #two {
+    padding: 10px;
+  }
+
+  #three {
+    padding: 10px;
+  }
+
+  #four {
+    padding: 10px;
+  }
+
+  #score {
+    position: fixed;
+    left: 340px;
+  }
+
+  #sumofcrystals, #score {
+    left-margin: 50px;
+    color: red;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 18px;
+    display: inline;
+  }
+
+  .crystal1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .crystal2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .crystal3 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .crystal4 {
+    width: 200px;
+    height: 200px;
+  }
